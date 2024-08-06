@@ -8,7 +8,6 @@ export default function Home() {
       hourglass.register();
     }
   }, []);
-
   const [delay, setDelay] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
