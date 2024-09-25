@@ -15,7 +15,7 @@ export default function Transition() {
   return (
     <main
       className={`bg-black/70 backdrop-blur-lg flex flex-col gap-12 w-screen h-screen justify-center items-center fixed top-0 left-0 z-30 duration-300 ${
-        isDone && "opacity-0"
+        isDone && "opacity-0 z-0 pointer-events-none"
       }`}
     >
       <l-hourglass
