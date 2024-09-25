@@ -17,7 +17,7 @@ const WhatAreWe = () => {
         <div className="grid lg:grid-cols-2 gap-24 pt-24">
           <div>
             <Image
-              src="https://www.advrider.com/wp-content/uploads/2023/02/2023-Kawasaki-ZX4RR-1-20-scaled.jpg"
+              src="/kawasaki.webp"
               alt="Brand Image"
               width={1920}
               height={1080}
@@ -35,7 +35,7 @@ const WhatAreWe = () => {
           </div>
           <div>
             <Image
-              src="https://static1.topspeedimages.com/wordpress/wp-content/uploads/2022/12/resize_2023-ducati-streetfighter-v4.jpg"
+              src="/naked.webp"
               alt="Brand Image"
               width={1920}
               height={1080}
@@ -55,7 +55,7 @@ const WhatAreWe = () => {
 
           <div>
             <Image
-              src="https://i.pinimg.com/originals/98/85/c6/9885c6b18db9a9b7fc28b33f285b5f9c.jpg"
+              src="/scooter.webp"
               alt="Brand Image"
               width={1920}
               height={1080}
@@ -73,7 +73,7 @@ const WhatAreWe = () => {
           </div>
           <div>
             <Image
-              src="https://images5.1000ps.net/images_bikekat/2017/177-CF_MOTO/8905-CForce_800_V2_EFI_4%C3%974_XL_DLX/013.jpg"
+              src="/atv.webp"
               alt="Brand Image"
               width={1920}
               height={1080}

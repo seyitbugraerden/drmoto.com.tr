@@ -49,7 +49,7 @@ const SwiperDemo = () => {
       >
         <SwiperSlide className="relative">
           <Image
-            src="https://images.airtasker.com/v7/https://airtasker-seo-assets-prod.s3.amazonaws.com/en_AU/1693872246547-motorcycle-mechanic.jpg"
+            src="/bg1.webp"
             alt="Slider One"
             width={1920}
             height={1080}
@@ -68,7 +68,7 @@ const SwiperDemo = () => {
             </h1>
           </div>
           <Image
-            src="https://mcn-images.bauersecure.com/wp-images/217342/machine-mart-sale__1_.jpg"
+            src="/bg2.webp"
             alt="Slider Two"
             width={1920}
             height={1080}
@@ -82,7 +82,7 @@ const SwiperDemo = () => {
             </h1>
           </div>
           <Image
-            src="https://motokz.kz/wp-content/uploads/2023/06/wp.jpg"
+            src="/bg3.webp"
             alt="Slider Three"
             width={1920}
             height={1080}
