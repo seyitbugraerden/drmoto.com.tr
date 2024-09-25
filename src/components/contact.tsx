@@ -20,6 +20,7 @@ const Contact = () => {
               width="600"
               height="450"
               loading="lazy"
+              title="Dr Moto Repair Google Map"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
