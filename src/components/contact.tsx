@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./ui/Container";
 import { Instagram, MapPin, Phone } from "lucide-react";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -50,18 +51,18 @@ const Contact = () => {
 
               <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
                 <div className="flex flex-col gap-6">
-                  <a
+                  <Link
                     className="text-black flex flex-row items-center gap-3"
                     href="tel:905069963201"
                   >
                     <Phone /> +90 506 996 32 01
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="flex flex-row gap-4"
                     href="https://www.instagram.com/dr.moto_ankara/"
                   >
                     <Instagram /> dr.moto_ankara
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

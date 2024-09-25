@@ -1,24 +1,25 @@
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header className="absolute z-20 w-full hidden lg:block">
       <Container className="flex items-center justify-between text-white font-semibold py-12">
-        <a className="hover:opacity-60" href="/#hakkimizda">
+        <Link className="hover:opacity-60" href="/#hakkimizda">
           Hakkımızda
-        </a>
-        <a className="hover:opacity-60" href="/#starter">
+        </Link>
+        <Link className="hover:opacity-60" href="/#starter">
           Başlıca Dr.Moto
-        </a>
+        </Link>
         <Image src="/logo.webp" alt="logo" width={320} height={200} />
-        <a className="hover:opacity-60" href="/#hizmetler">
+        <Link className="hover:opacity-60" href="/#hizmetler">
           Hizmetlerimiz
-        </a>
-        <a className="hover:opacity-60" href="/#iletisim">
+        </Link>
+        <Link className="hover:opacity-60" href="/#iletisim">
           İletişim
-        </a>
+        </Link>
       </Container>
     </header>
   );
