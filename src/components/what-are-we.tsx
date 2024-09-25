@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const WhatAreWe = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id="starter">
       <Container className="py-24">
         <h1 className="text-4xl text-black font-semibold text-center pb-6">
           Başlıca Dr.Moto
