@@ -4,17 +4,17 @@ import React from "react";
 const Features = () => {
   return (
     <div>
-      <div className="bg-[#dedede] px-2 py-24 h-screen">
+      <div className="bg-[#dedede] px-2 py-24 lg:h-screen">
         <div id="hizmetlerimiz" className="mx-auto max-w-6xl">
           <h1 className="text-4xl text-black font-semibold text-center pb-6">
             Hizmetlerimiz
           </h1>
-          <p className="text-center text-black/50 text-2xl mx-auto w-1/2 leading-relaxed">
+          <p className="text-center text-black/50 text-md lg:text-2xl mx-auto lg:w-1/2 leading-relaxed">
             Kaliteli işçilik ve müşteri memnuniyetini ön planda tutarak,
             motosikletinizin her türlü bakım ve onarım işini profesyonelce
             yapıyoruz.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 py-12">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-12 py-12">
             <Link
               href="/yag-ve-genel-bakim"
               className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"

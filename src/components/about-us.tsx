@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className="bg-[#dedede] h-screen">
-      <Container className="py-24  grid grid-cols-2 gap-x-24 h-full">
+    <section className="bg-[#dedede] h-full  lg:h-screen">
+      <Container className="py-24 grid grid-cols-1 lg:grid-cols-2 gap-x-24 h-full">
         <div id="hakkimizda" className="place-content-center">
           <h2 className="text-4xl font-semibold pb-6">Hakkımızda</h2>
           <p className="text-justify text-black/50">

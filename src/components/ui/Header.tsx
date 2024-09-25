@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="absolute z-20 w-full">
+    <header className="absolute z-20 w-full hidden lg:block">
       <Container className="flex items-center justify-between text-white font-semibold py-12">
         <a className="hover:opacity-60" href="/#hakkimizda">Hakkımızda</a>
         <a className="hover:opacity-60" href="#hakkimizda">Başlıca Dr.Moto</a>

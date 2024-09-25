@@ -33,7 +33,7 @@ const SwiperDemo = () => {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden border-b-4 border-b-black/70">
+    <div className="relative w-screen h-[70dvh] lg:h-screen overflow-hidden border-b-4 border-b-black/70">
       <Swiper
         modules={[Navigation, Pagination, EffectFade]}
         spaceBetween={50}
@@ -53,17 +53,17 @@ const SwiperDemo = () => {
             alt="Slider One"
             width={1920}
             height={1080}
-            className="brightness-50 w-screen h-screen object-cover"
+            className="brightness-50 w-screen h-full lg:h-screen object-cover"
           />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 backdrop-blur-sm bg-black/10 -translate-y-1/2 z-20 text-white origin-center p-12">
-            <h1 className="text-5xl text-center font-semibold pb-8 leading-relaxed">
+            <h1 className="text-xl lg:text-5xl text-center font-semibold pb-8 leading-relaxed">
               Her Soruna Bir Çözüm, Her Sürüşe Güven
             </h1>
           </div>
         </SwiperSlide>
         <SwiperSlide className="relative">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 backdrop-blur-sm bg-black/10 -translate-y-1/2 z-20 text-white origin-center p-12">
-            <h1 className="text-5xl text-center font-semibold pb-8 leading-relaxed">
+            <h1 className="text-xl lg:text-5xl text-center font-semibold pb-8 leading-relaxed">
               Her Yolda Güvenli Sürüş İçin Uzman Bakım
             </h1>
           </div>
@@ -72,12 +72,12 @@ const SwiperDemo = () => {
             alt="Slider Two"
             width={1920}
             height={1080}
-            className="brightness-50 w-screen h-screen object-cover"
+            className="brightness-50 w-screen h-full lg:h-screen object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="relative">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 backdrop-blur-sm bg-black/10 -translate-y-1/2 z-20 text-white origin-center p-12">
-            <h1 className="text-5xl text-center font-semibold pb-8 leading-relaxed">
+            <h1 className="text-xl lg:text-5xl text-center font-semibold pb-8 leading-relaxed">
               Tüm Bakım ve Onarım İhtiyaçlarınız İçin Tek Adres
             </h1>
           </div>
@@ -86,7 +86,7 @@ const SwiperDemo = () => {
             alt="Slider Three"
             width={1920}
             height={1080}
-            className="brightness-50 w-screen h-screen object-cover"
+            className="brightness-50 w-screen h-full lg:h-screen object-cover"
           />
         </SwiperSlide>
       </Swiper>

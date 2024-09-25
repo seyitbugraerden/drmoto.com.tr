@@ -9,12 +9,12 @@ const WhatAreWe = () => {
         <h1 className="text-4xl text-black font-semibold text-center pb-6">
           Başlıca Dr.Moto
         </h1>
-        <p className="text-center text-black/50 text-2xl mx-auto w-1/2 leading-relaxed">
+        <p className="text-center text-black/50 text-md lg:text-2xl mx-auto lg:w-1/2 leading-relaxed">
           Kaliteli işçilik ve müşteri memnuniyetini ön planda tutarak,
           motosikletinizin her türlü bakım ve onarım işini profesyonelce
           yapıyoruz.
         </p>
-        <div className="grid grid-cols-2 gap-24 pt-24">
+        <div className="grid lg:grid-cols-2 gap-24 pt-24">
           <div>
             <Image
               src="https://picsum.photos/1920/1080"
