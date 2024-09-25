@@ -2,6 +2,7 @@ import Header from "@/components/ui/Header";
 import "./globals.css";
 import "ldrs/ring";
 import SwiperDemo from "@/components/swiper-demo";
+import Transition from "@/components/transition";
 
 export default function RootLayout({
   children,
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className="max-w-screen overflow-x-hidden">
         <Header />
         <SwiperDemo />
+        <Transition />
         {children}
       </body>
     </html>
