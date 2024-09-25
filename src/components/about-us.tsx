@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
         <div className="relative flex justify-center items-center">
           <Image
-            src="https://picsum.photos/1080/1080"
+            src="https://lh3.googleusercontent.com/p/AF1QipObcHG1FEAIVSV7sP2BJCdR_XIh60J2mqQ5HSoS=s680-w680-h510"
             alt="about-us"
             width={480}
             height={480}
