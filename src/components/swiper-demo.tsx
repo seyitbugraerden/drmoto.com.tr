@@ -94,14 +94,14 @@ const SwiperDemo = () => {
       <button
         name="left swiper"
         ref={prevRef}
-        className="absolute top-1/2 left-5 transform -translate-y-1/2 bg-white rounded-full text-black z-10 p-2 cursor-pointer"
+        className="absolute top-1/2 left-12 transform -translate-y-1/2 bg-white rounded-full text-black z-10 p-2 cursor-pointer"
       >
         <ArrowLeft size={16} />
       </button>
       <button
         name="right swiper"
         ref={nextRef}
-        className="absolute top-1/2 right-5 transform -translate-y-1/2 bg-white rounded-full text-black z-10 p-2 cursor-pointer"
+        className="absolute top-1/2 right-16 transform -translate-y-1/2 bg-white rounded-full text-black z-10 p-2 cursor-pointer"
       >
         <ArrowRight size={16} />
       </button>
