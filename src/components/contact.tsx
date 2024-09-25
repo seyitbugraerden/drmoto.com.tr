@@ -5,7 +5,7 @@ import { Instagram, MapPin, Phone } from "lucide-react";
 const Contact = () => {
   return (
     <Container className="py-24 w-screen lg:h-screen">
-      <div>
+      <div id="iletisim">
         <h1 className="text-4xl text-black font-semibold text-center pb-6">
           İletişim
         </h1>
