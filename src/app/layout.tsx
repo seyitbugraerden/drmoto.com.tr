@@ -1,5 +1,7 @@
+import Header from "@/components/ui/Header";
 import "./globals.css";
 import "ldrs/ring";
+import SwiperDemo from "@/components/swiper-demo";
 
 export default function RootLayout({
   children,
@@ -19,11 +21,15 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body className="max-w-screen overflow-x-hidden">
+        <Header />
+        <SwiperDemo />
+        {children}
+      </body>
     </html>
   );
 }

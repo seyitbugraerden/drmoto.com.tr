@@ -2,35 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.swiper-pagination-bullet-active {
+  background-color: white !important;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.swiper-pagination-bullet {
+  @apply !border-[5px] !border-white;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Replace 400 with the desired font weight */
   font-style: normal;
-  background: linear-gradient(
-    to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-end-rgb))
-  );
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+*{
+  @apply transition-all duration-200
 }
