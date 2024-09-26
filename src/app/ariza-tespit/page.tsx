@@ -24,16 +24,13 @@ const page = () => {
               Arıza Tespit İşlemleri
             </h2>
             <p className="text-justify text-black/50">
-              <strong>Dr. Moto</strong>&apos;da motorunuzun uzun ömürlü ve
-              güvenli bir şekilde çalışması için profesyonel yağ değişimi ve
-              genel bakım hizmetleri sunuyoruz. Düzenli yağ değişimi, motor
-              performansınızı en üst düzeyde tutarken aşınmayı en aza indirir.
-              Ayrıca, genel bakım kapsamında frenlerden zincirlere, filtrelerden
-              lastik basıncına kadar tüm kritik bileşenleri kontrol ederek
-              sorunsuz bir sürüş deneyimi sağlamayı amaçlıyoruz. Motorunuzun
-              sağlığını korumak ve her yolculukta maksimum verim alabilmek için,
-              Dr. Moto&apos;da titizlikle gerçekleştirilen bu bakımları ihmal
-              etmeyin.
+              Motosikletinizde beklenmedik bir sorunla karşılaştığınızda, doğru
+              ve hızlı arıza tespiti büyük önem taşır. Dr. Moto’da, gelişmiş
+              arıza tespit cihazlarımız ve uzman teknisyenlerimizle motor,
+              elektrik, süspansiyon ve diğer tüm sistemlerdeki sorunları hızlıca
+              belirleyip çözüme kavuşturuyoruz. Böylece motosikletinizin
+              sorunları hızlı bir şekilde giderilir ve güvenli bir sürüş
+              deneyimi sunulur.
             </p>
             <ul className="list-disc mt-2">
               <li className="text-black/50">Görsel İnceleme</li>

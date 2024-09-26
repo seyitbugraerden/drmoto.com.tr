@@ -26,16 +26,13 @@ const page = () => {
                 Yakıt ve Egzoz Sistemleri
               </h2>
               <p className="text-justify text-black/50">
-                <strong>Dr. Moto</strong>&apos;da motorunuzun uzun ömürlü ve
-                güvenli bir şekilde çalışması için profesyonel yağ değişimi ve
-                genel bakım hizmetleri sunuyoruz. Düzenli yağ değişimi, motor
-                performansınızı en üst düzeyde tutarken aşınmayı en aza indirir.
-                Ayrıca, genel bakım kapsamında frenlerden zincirlere,
-                filtrelerden lastik basıncına kadar tüm kritik bileşenleri
-                kontrol ederek sorunsuz bir sürüş deneyimi sağlamayı
-                amaçlıyoruz. Motorunuzun sağlığını korumak ve her yolculukta
-                maksimum verim alabilmek için, Dr. Moto&apos;da titizlikle
-                gerçekleştirilen bu bakımları ihmal etmeyin.
+                Yakıt ve egzoz sistemleri, motosikletinizin performansını
+                doğrudan etkileyen unsurlardır. Dr. Moto olarak, yakıt sistemi
+                temizliği, enjektör bakımı ve egzoz kontrollerini özenle
+                yapıyoruz. Bu işlemler, motorun verimli çalışmasını sağlarken,
+                egzoz sistemindeki olası tıkanmalar ve sorunlar giderilerek
+                çevreye zararlı emisyonların önüne geçilir ve motosikletinizin
+                performansı maksimize edilir.
               </p>
               <ul className="list-disc mt-2">
                 <li className="text-black/50">Yakıt Sistemi Kontrolü</li>

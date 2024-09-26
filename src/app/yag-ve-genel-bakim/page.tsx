@@ -26,16 +26,13 @@ const page = () => {
                 Yağ ve Bakım İşlemleri
               </h2>
               <p className="text-justify text-black/50">
-                <strong>Dr. Moto</strong>&apos;da motorunuzun uzun ömürlü ve
-                güvenli bir şekilde çalışması için profesyonel yağ değişimi ve
-                genel bakım hizmetleri sunuyoruz. Düzenli yağ değişimi, motor
-                performansınızı en üst düzeyde tutarken aşınmayı en aza indirir.
-                Ayrıca, genel bakım kapsamında frenlerden zincirlere,
-                filtrelerden lastik basıncına kadar tüm kritik bileşenleri
-                kontrol ederek sorunsuz bir sürüş deneyimi sağlamayı
-                amaçlıyoruz. Motorunuzun sağlığını korumak ve her yolculukta
-                maksimum verim alabilmek için, Dr. Moto&apos;da titizlikle
-                gerçekleştirilen bu bakımları ihmal etmeyin.
+                Motorun sağlıklı ve uzun ömürlü çalışması için düzenli yağ ve
+                bakım işlemleri büyük önem taşır. Dr. Moto olarak, motor yağının
+                değiştirilmesi, hava filtresi kontrolü, buji değişimi, soğutma
+                sıvısı seviyelerinin kontrolü gibi tüm bakım işlemlerini
+                profesyonelce gerçekleştiriyoruz. Bu işlemler sayesinde
+                motorunuzun performansı artar, yakıt tasarrufu sağlanır ve
+                beklenmedik arızaların önüne geçilir.
               </p>
               <ul className="list-disc mt-2">
                 <li className="text-black/50">Motor Yağı Değişimi</li>

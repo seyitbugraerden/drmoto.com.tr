@@ -25,16 +25,12 @@ const page = () => {
                 Motor Revizyon İşlemleri
               </h2>
               <p className="text-justify text-black/50">
-                <strong>Dr. Moto</strong>&apos;da motorunuzun uzun ömürlü ve
-                güvenli bir şekilde çalışması için profesyonel yağ değişimi ve
-                genel bakım hizmetleri sunuyoruz. Düzenli yağ değişimi, motor
-                performansınızı en üst düzeyde tutarken aşınmayı en aza indirir.
-                Ayrıca, genel bakım kapsamında frenlerden zincirlere,
-                filtrelerden lastik basıncına kadar tüm kritik bileşenleri
-                kontrol ederek sorunsuz bir sürüş deneyimi sağlamayı
-                amaçlıyoruz. Motorunuzun sağlığını korumak ve her yolculukta
-                maksimum verim alabilmek için, Dr. Moto&apos;da titizlikle
-                gerçekleştirilen bu bakımları ihmal etmeyin.
+                Motor revizyonu, motosikletinizin motor ömrünü uzatmanın ve
+                performansını en üst düzeyde tutmanın en etkili yoludur. Dr.
+                Moto’da, motorun tamamen sökülüp incelenmesi, aşınmış parçaların
+                yenilenmesi ve motorun tekrar bir araya getirilmesi işlemleri
+                titizlikle gerçekleştirilir. Bu sayede motorunuz fabrika çıkışı
+                standartlarına uygun hale gelir ve ilk günkü gücüne kavuşur.
               </p>
               <ul className="list-disc mt-2">
                 <li className="text-black/50">
