@@ -1,22 +1,69 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { GetServerSidePropsContext } from "next";
 
-const Sitemap = (req: NextApiRequest, res: NextApiResponse) => {
-  const formatDate = (date: Date) => {
-    return date.toISOString();
-  };
+const Sitemap = () => {
+  return null;
+};
 
-  const sitemap = `
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <url>
-        <loc>https://www.drmoto.com.tr/</loc>
-        <lastmod>${formatDate(new Date())}</lastmod>
-        <priority>0.2</priority>
-      </url>
-    </urlset>
-  `;
+export const getServerSideProps = async ({
+  res,
+}: GetServerSidePropsContext) => {
+  const baseUrl = "https://www.drmoto.com.tr";
+  const urls = [
+    { loc: "/", lastmod: "2024-09-26T14:34:51+01:00", priority: 0.2 },
+    {
+      loc: "/yag-ve-genel-bakim",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+    {
+      loc: "/motor-revizyon",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+    {
+      loc: "/elektrik-tesisat",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+    {
+      loc: "/ariza-tespit",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+    {
+      loc: "/fren-ve-suspansiyon",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+    {
+      loc: "/yakit-ve-egzoz",
+      lastmod: "2024-09-26T14:34:51+01:00",
+      priority: 0.1,
+    },
+  ];
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${urls
+      .map((url) => {
+        return `
+          <url>
+            <loc>${baseUrl}${url.loc}</loc>
+            <lastmod>${url.lastmod}</lastmod>
+            <priority>${url.priority}</priority>
+          </url>
+        `;
+      })
+      .join("")}
+  </urlset>`;
 
   res.setHeader("Content-Type", "text/xml");
-  res.status(200).send(sitemap);
+  res.write(sitemap);
+  res.end();
+
+  return {
+    props: {},
+  };
 };
 
 export default Sitemap;
