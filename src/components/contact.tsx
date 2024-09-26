@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <Container className="py-24 w-screen lg:h-screen">
+    <Container className="py-24 w-screen xl:h-screen">
       <div id="iletisim">
         <h1 className="text-4xl text-black font-semibold text-center pb-6">
           İletişim
