@@ -17,7 +17,7 @@ const Features = () => {
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-12 py-12">
             <Link
               href="/yag-ve-genel-bakim"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 sm:h-56 flex flex-col justify-center border shadow-md shadow-black border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
@@ -48,7 +48,7 @@ const Features = () => {
             </Link>
             <Link
               href="/motor-revizyon"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 shadow-md shadow-black sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
@@ -79,7 +79,7 @@ const Features = () => {
             </Link>
             <Link
               href="/elektrik-tesisat"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 sm:h-56 shadow-md shadow-black flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
@@ -110,7 +110,7 @@ const Features = () => {
             </Link>
             <Link
               href="/ariza-tespit"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 sm:h-56 shadow-md shadow-black flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
@@ -141,7 +141,7 @@ const Features = () => {
             </Link>
             <Link
               href="/fren-ve-suspansiyon"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 shadow-md shadow-black sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
@@ -172,7 +172,7 @@ const Features = () => {
             </Link>
             <Link
               href="/yakit-ve-egzoz"
-              className="h-36 sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
+              className="h-36 shadow-md shadow-black sm:h-56 flex flex-col justify-center border border-black/70 rounded-xl text-center p-4 md:p-5 hover:bg-black/70 group bg-white/30 cursor-pointer"
             >
               <div className="flex justify-center items-center size-12   rounded-lg mx-auto">
                 <svg
