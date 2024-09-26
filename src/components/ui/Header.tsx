@@ -13,7 +13,9 @@ const Header = () => {
         <Link className="hover:opacity-60" href="/#starter">
           Başlıca Dr.Moto
         </Link>
-        <Image src="/logo.webp" alt="logo" width={320} height={200} />
+        <Link href="/" content="home">
+          <Image src="/logo.webp" alt="logo" width={320} height={200} />
+        </Link>
         <Link className="hover:opacity-60" href="/#hizmetler">
           Hizmetlerimiz
         </Link>

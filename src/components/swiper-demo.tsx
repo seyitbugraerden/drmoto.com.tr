@@ -2,7 +2,7 @@
 import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { Navigation, Pagination, EffectFade } from "swiper/modules";
+import { Navigation, Pagination, EffectFade, Autoplay } from "swiper/modules";
 import SwiperCore from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -35,8 +35,12 @@ const SwiperDemo = () => {
   return (
     <div className="relative w-screen h-[70dvh] xl:h-screen overflow-hidden border-b-4 border-b-black/70">
       <Swiper
-        modules={[Navigation, Pagination, EffectFade]}
+        modules={[Navigation, Pagination, EffectFade, Autoplay]}
         spaceBetween={50}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         slidesPerView={1}
         loop
         pagination={{ clickable: true }}

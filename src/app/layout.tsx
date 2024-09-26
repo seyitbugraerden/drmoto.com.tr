@@ -1,8 +1,8 @@
 import Header from "@/components/ui/Header";
 import "./globals.css";
 import "ldrs/ring";
-import SwiperDemo from "@/components/swiper-demo";
 import Transition from "@/components/transition";
+import Contact from "@/components/contact";
 
 export default function RootLayout({
   children,
@@ -19,7 +19,7 @@ export default function RootLayout({
           name="keywords"
           content="motosiklet servisi, motosiklet tamiri, motosiklet bakımı, Ankara motosiklet servisi"
         />
-
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta property="og:title" content="Dr. Moto - Motosiklet Servisi" />
         <meta
           property="og:description"
@@ -27,11 +27,11 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://www.drmoto.com.tr/logo.webp"
+          content="https://www.drmoto.com.tr/favicon.ico"
         />
         <meta
           name="twitter:image"
-          content="https://www.drmoto.com.tr/logo.webp"
+          content="https://www.drmoto.com.tr/favicon.ico"
         />
         <meta property="og:url" content="https://www.drmoto.com.tr/" />
 
@@ -64,9 +64,9 @@ export default function RootLayout({
       </head>
       <body className="max-w-screen overflow-x-hidden">
         <Header />
-        <SwiperDemo />
         <Transition />
         {children}
+        <Contact />
       </body>
     </html>
   );
