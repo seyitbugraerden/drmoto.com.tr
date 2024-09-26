@@ -37,7 +37,7 @@ const page = () => {
         />
         <meta
           name="description"
-          content="Dr. Moto, motosiklet bakım ve onarım hizmetlerinde uzman. Kaliteli işçilik ve güvenilir servis."
+          content="Dr. Moto, motosikletinizin elektrik ve tesisat sorunlarını profesyonelce çözümlerle giderir. Güç ve güvenlik için bizimle iletişime geçin!"
         />
         <title>Dr. Moto - Elektrik ve Tesisat Çözümleri | Ankara</title>
         <link

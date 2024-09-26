@@ -37,7 +37,7 @@ const page = () => {
         />
         <meta
           name="description"
-          content="Dr. Moto, motosiklet bakım ve onarım hizmetlerinde uzman. Kaliteli işçilik ve güvenilir servis."
+          content="Dr. Moto, motor revizyon işlemlerinde uzman ekibiyle motosikletinizin performansını yeniden kazanmasına yardımcı olur. Güvenilir ve etkili çözümler için bize danışın!"
         />
         <title>Dr. Moto - Motor Revizyon İşlemleri | Ankara</title>
         <link

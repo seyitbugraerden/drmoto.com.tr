@@ -37,7 +37,7 @@ const page = () => {
         />
         <meta
           name="description"
-          content="Dr. Moto, motosiklet bakım ve onarım hizmetlerinde uzman. Kaliteli işçilik ve güvenilir servis."
+          content="Dr. Moto, motosikletinizin yakıt ve egzoz sistemlerini profesyonelce optimize eder. Performans artışı ve yakıt verimliliği için bize ulaşın!"
         />
         <title>Dr. Moto - Yakıt ve Egzoz Sistemleri | Ankara</title>
         <link

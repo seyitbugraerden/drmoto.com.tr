@@ -37,7 +37,7 @@ const page = () => {
         />
         <meta
           name="description"
-          content="Dr. Moto, motosiklet bakım ve onarım hizmetlerinde uzman. Kaliteli işçilik ve güvenilir servis."
+          content="Dr. Moto, motosikletinizin fren ve süspansiyon sistemlerini titizlikle kontrol eder. Güvenli ve konforlu sürüş için uzman ekibimizle iletişime geçin!"
         />
         <title>Dr. Moto - Fren ve Süspansiyon Sistemleri | Ankara</title>
         <link
