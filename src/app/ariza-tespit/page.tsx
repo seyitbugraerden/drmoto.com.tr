@@ -32,7 +32,7 @@ const page = () => {
               sorunları hızlı bir şekilde giderilir ve güvenli bir sürüş
               deneyimi sunulur.
             </p>
-            <ul className="list-disc mt-2">
+            <ul className="list-disc mt-4">
               <li className="text-black/50">Görsel İnceleme</li>
               <li className="text-black/50">Ses ve Titreşim Kontrolü</li>
               <li className="text-black/50">Yakıt Sistemi Kontrolü</li>

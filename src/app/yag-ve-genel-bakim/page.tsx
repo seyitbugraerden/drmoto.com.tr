@@ -34,7 +34,7 @@ const page = () => {
                 motorunuzun performansı artar, yakıt tasarrufu sağlanır ve
                 beklenmedik arızaların önüne geçilir.
               </p>
-              <ul className="list-disc mt-2">
+              <ul className="list-disc mt-4">
                 <li className="text-black/50">Motor Yağı Değişimi</li>
                 <li className="text-black/50">Yağ Filtresi Değişimi</li>
                 <li className="text-black/50">

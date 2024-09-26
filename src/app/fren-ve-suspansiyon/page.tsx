@@ -33,7 +33,7 @@ const page = () => {
                 süspansiyonun yol tutuşu arttırması, sürüş konforunuzu ve
                 güvenliğinizi en üst seviyeye çıkarır.
               </p>
-              <ul className="list-disc mt-2">
+              <ul className="list-disc mt-4">
                 <li className="text-black/50">Fren Sistemi Kontrolü</li>
                 <li className="text-black/50">
                   Süspansiyon ve Amortisör Kontrolü

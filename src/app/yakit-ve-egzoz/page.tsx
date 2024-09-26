@@ -34,7 +34,7 @@ const page = () => {
                 çevreye zararlı emisyonların önüne geçilir ve motosikletinizin
                 performansı maksimize edilir.
               </p>
-              <ul className="list-disc mt-2">
+              <ul className="list-disc mt-4">
                 <li className="text-black/50">Yakıt Sistemi Kontrolü</li>
                 <li className="text-black/50">Egzoz Kontrolü</li>
               </ul>

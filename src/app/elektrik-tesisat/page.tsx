@@ -32,7 +32,7 @@ const page = () => {
                 tesisatındaki kabloların kontrolleri yapılarak olası sorunlar
                 tespit edilir ve en hızlı şekilde onarılır.
               </p>
-              <ul className="list-disc mt-2">
+              <ul className="list-disc mt-4">
                 <li className="text-black/50">Akü Kontrolü ve Şarj Durumu</li>
                 <li className="text-black/50">Alternatör ve Statör Kontrolü</li>
                 <li className="text-black/50">Sigorta ve Röle Kontrolleri</li>

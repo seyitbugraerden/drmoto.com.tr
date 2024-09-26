@@ -32,7 +32,7 @@ const page = () => {
                 titizlikle gerçekleştirilir. Bu sayede motorunuz fabrika çıkışı
                 standartlarına uygun hale gelir ve ilk günkü gücüne kavuşur.
               </p>
-              <ul className="list-disc mt-2">
+              <ul className="list-disc mt-4">
                 <li className="text-black/50">
                   Motorun Sökülmesi ve Parçaların Temizlenmesi
                 </li>
