@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./ui/Container";
 import { Instagram, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -62,6 +63,18 @@ const Contact = () => {
                     href="https://www.instagram.com/dr.moto_ankara/"
                   >
                     <Instagram /> dr.moto_ankara
+                  </Link>
+                  <Link
+                    className="flex flex-row gap-4"
+                    href="https://wa.me/+905069963201"
+                  >
+                    <Image
+                      src="/whatsapp.svg"
+                      alt="whatsapp icon"
+                      width={24}
+                      height={24}
+                    />{" "}
+                    +90 506 996 32 01
                   </Link>
                 </div>
               </div>
