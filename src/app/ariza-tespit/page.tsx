@@ -4,7 +4,58 @@ import React from "react";
 
 const page = () => {
   return (
-    <main>
+    <>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta
+          name="keywords"
+          content="motosiklet servisi, motosiklet tamiri, motosiklet bakımı, Ankara motosiklet servisi"
+        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta property="og:title" content="Dr. Moto - Motosiklet Servisi" />
+        <meta
+          property="og:description"
+          content="Motosiklet bakım, onarım ve tamir hizmetleri."
+        />
+        <meta
+          property="og:image"
+          content="https://www.drmoto.com.tr/favicon.ico"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.drmoto.com.tr/favicon.ico"
+        />
+        <meta property="og:url" content="https://www.drmoto.com.tr/" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dr. Moto - Motosiklet Servisi" />
+        <meta
+          name="twitter:description"
+          content="Motosiklet bakım, onarım ve tamir hizmetleri."
+        />
+        <meta
+          name="description"
+          content="Dr. Moto, motosiklet bakım ve onarım hizmetlerinde uzman. Kaliteli işçilik ve güvenilir servis."
+        />
+        <title>Dr. Moto - Arıza Tespit İşlemleri | Ankara</title>
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <div className="w-screen h-[30dvh] bg-black/90"></div>
       <section className="bg-[#dedede] h-full  xl:h-screen">
         <Container className="py-24 grid grid-cols-1 lg:grid-cols-2 gap-x-24 h-full">
@@ -53,7 +104,7 @@ const page = () => {
           </div>
         </Container>
       </section>
-    </main>
+    </>
   );
 };
 
