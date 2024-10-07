@@ -3,7 +3,7 @@ import "./globals.css";
 import "ldrs/ring";
 import Transition from "@/components/transition";
 import Contact from "@/components/contact";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -64,6 +64,7 @@ export default function RootLayout({
         />
       </head>
       <body className="max-w-screen overflow-x-hidden">
+        <Analytics />
         <Header />
         <Transition />
         {children}
