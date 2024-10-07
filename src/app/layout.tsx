@@ -3,6 +3,7 @@ import "./globals.css";
 import "ldrs/ring";
 import Transition from "@/components/transition";
 import Contact from "@/components/contact";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({
   children,
